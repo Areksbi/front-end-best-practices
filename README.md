@@ -8,6 +8,7 @@ Some best practices or choices I found in my experience.
 ##### - [2.1 Vanilla](#vanilla)
 ##### - [2.2 Angular](#angular)
 ##### - [2.3 React](#react)
+#### [3. HTML](#html)
 
 ## <a name="git"></a>1. Git
 - Pull requests / Merge requests
@@ -23,7 +24,7 @@ Some best practices or choices I found in my experience.
 
 ## <a name="choose-technology-for-enterprise-projects"></a>2. Choose technology for enterprise projects
 ### <a name="vanilla"></a>2.1 Vanilla
-- My preferred choise but need a senior Front End dev
+- My preferred choise but need senior Front End devs
 - Create your own bundle: https://createapp.dev/
 - It's not easy to create a good Vanilla architectur
 ### <a name="angular"></a>2.2 Angular
@@ -36,7 +37,22 @@ Some best practices or choices I found in my experience.
 - Useful to learn Javascript better
 - Tranding choice
 
-## 3. HTML
+## <a name="html"></a>3. HTML
+- Use **HTML5** for:
+  - semantic page structure
+  - accessibility (**a11y**)
+  - SEO
+- **HTML5** links:
+  - Official: https://html.spec.whatwg.org/multipage/
+  - MDN: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5 
+- Some **a11y** Chrome extensions:
+  - [WAVE](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+  - [axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd)
+  - [ChromeVox](https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn)
+  - [HTML5 Outliner](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
+  - [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)
+- Awesome **a11y** to UNDERSTAND how to write accessible HTML: https://www.w3.org/WAI/tutorials/
+- Use **Prettier** formatter to have clean HTML
 
 ## 4. CSS
 
