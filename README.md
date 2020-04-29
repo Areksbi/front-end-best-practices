@@ -3,13 +3,13 @@ Some best practices or choices I found in my experience.
 *Always available for suggestions 😊*
 
 ## Index
-#### [1. Git](#1-git)
-#### [2. Choose technology for enterprise projects](#2-choose-technology-for-enterprise-projects)
-##### [2.1 Vanilla](#21-vanilla)
-##### [2.2 Angular](#22-angular)
-##### [2.3 React](#23-react)
+#### [Git](#git)
+#### [Choose technology for enterprise projects](#choose-technology-for-enterprise-projects)
+##### [Vanilla](#vanilla)
+##### [Angular](#angular)
+##### [React](#react)
 
-## 1. Git
+## Git
 - Pull requests / Merge requests
 - Commit messages
   - https://github.com/RomuloOliveira/commit-messages-guide/blob/master/README.md
@@ -21,17 +21,17 @@ Some best practices or choices I found in my experience.
   - ```bugfix/#id-brief-description```: opened from ```develop``` or ```feature``` and mergable in the branch you opened from, describe a fix for a feature. Replace ```id``` with the id of the bug, succeded by a brief description of the fix
   - ```release/name-release```: opened from ```master``` and mergable in ```master``` when it's ready, daily updated with ```master```
 
-## 2. Choose technology for enterprise projects
-### 2.1 Vanilla
+## Choose technology for enterprise projects
+### Vanilla
 - My preferred choise but need a senior Front End dev
 - Create your own bundle: https://createapp.dev/
 - It's not easy to create a good Vanilla architectur
-### 2.2 Angular
+### Angular
 - With a lot of rollover on the team
 - Easiest for new entries
 - A lot of forms to handle
 - Not the best to learn Javascript
-### 2.3 React
+### React
 - With a lot of rollover on the team
 - Useful to learn Javascript better
 - Tranding choice
