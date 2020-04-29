@@ -85,6 +85,6 @@ Some best practices or choices I found in my experience.
 - Add docs
 
 ## <a name="images"></a>7. Images
-- Use SVG (or iconfont)
+- SVG > iconfonts > sprites > plain images
 - Load best image based on screen width ([responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images))
 - Optimize images (https://kinsta.com/blog/optimize-images-for-web/ or tool online)
