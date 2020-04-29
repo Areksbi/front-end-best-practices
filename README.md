@@ -9,6 +9,7 @@ Some best practices or choices I found in my experience.
 ##### - [2.2 Angular](#angular)
 ##### - [2.3 React](#react)
 #### [3. HTML](#html)
+#### [4. CSS](#css)
 
 ## <a name="git"></a>1. Git
 - Pull requests / Merge requests
@@ -54,11 +55,24 @@ Some best practices or choices I found in my experience.
 - Awesome **a11y** to UNDERSTAND how to write accessible HTML: https://www.w3.org/WAI/tutorials/
 - Use **Prettier** formatter to have clean HTML
 
-## 4. CSS
+## <a name="css"></a>4. CSS
+- Use preprocessor (suggested [Sass](https://sass-lang.com/))
+- Use [BEM](http://getbem.com/)
+- Avoid Bootstrap, use only if want fast-projects
+- Evaluate Bootstrap alternatives:
+  - Bulma
+  - Materialize
+  - Foundation
+  - Semantic UI
+- Learn [pseudo-selectors](https://hackernoon.com/understanding-pseudo-class-selectors-mg443t89)
+- Use "semantic" class names (no ".is-red" or similar classes)
+- Use **Prettier** formatter to have clean CSS/Sass
+
 
 ## 5. Javascript
 
 ## 6. IDE
+
 
 ## 7. Images
 
@@ -67,3 +81,7 @@ Some best practices or choices I found in my experience.
 ## 9. Teamwork
 
 ## 10. Tool
+
+## 11. Utilities
+- Use regions (here an [example](http://vswebessentials.com/features/javascript#regions) with Javascript, but can be used everywhere)
+- Use TODO or FIXME when you are going to commit files you have to rework ([example](https://help.semmle.com/wiki/pages/viewpage.action?pageId=29393692) in Java)
