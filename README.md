@@ -10,6 +10,8 @@ Some best practices or choices I found in my experience.
 ##### - [2.3 React](#react)
 #### [3. HTML](#html)
 #### [4. CSS](#css)
+#### [5. Javascript](#javascript)
+#### [6. Utility](#utility)
 
 ## <a name="git"></a>1. Git
 - Pull requests / Merge requests
@@ -69,19 +71,19 @@ Some best practices or choices I found in my experience.
 - Use **Prettier** formatter to have clean CSS/Sass
 
 
-## 5. Javascript
+## <a name="javascript"></a>5. Javascript
+- [jsDoc](https://jsdoc.app/)
+- Use **eslint**
 
-## 6. IDE
-
+## <a name="utility"></a>6. Utility
+- Use **regions** (here an [example](http://vswebessentials.com/features/javascript#regions) with Javascript, but can be used everywhere)
+- Use **TODO** or **FIXME** when you are going to commit files you have to rework ([example](https://help.semmle.com/wiki/pages/viewpage.action?pageId=29393692) in Java)
+- Add **change log**
+- Add **precommit** and/or **prepush** (suggested **husky** with **lint-staged**)
+- Add **.editorconfig** ([link](https://editorconfig.org/))
+- Add docs
 
 ## 7. Images
-
-## 8. Doc
-
-## 9. Teamwork
-
-## 10. Tool
-
-## 11. Utilities
-- Use regions (here an [example](http://vswebessentials.com/features/javascript#regions) with Javascript, but can be used everywhere)
-- Use TODO or FIXME when you are going to commit files you have to rework ([example](https://help.semmle.com/wiki/pages/viewpage.action?pageId=29393692) in Java)
+- Use SVG (or iconfont)
+- Load best image based on screen width ([responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images))
+- Optimize images (https://kinsta.com/blog/optimize-images-for-web/ or tool online)
