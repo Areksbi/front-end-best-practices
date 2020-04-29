@@ -12,6 +12,7 @@ Some best practices or choices I found in my experience.
 #### [4. CSS](#css)
 #### [5. Javascript](#javascript)
 #### [6. Utility](#utility)
+#### [7. Images](#images)
 
 ## <a name="git"></a>1. Git
 - Pull requests / Merge requests
@@ -83,7 +84,7 @@ Some best practices or choices I found in my experience.
 - Add **.editorconfig** ([link](https://editorconfig.org/))
 - Add docs
 
-## 7. Images
+## <a name="images"></a>7. Images
 - Use SVG (or iconfont)
 - Load best image based on screen width ([responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images))
 - Optimize images (https://kinsta.com/blog/optimize-images-for-web/ or tool online)
