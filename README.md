@@ -13,6 +13,9 @@ Some best practices or choices I found in my experience.
 #### [5. Javascript](#javascript)
 #### [6. Utility](#utility)
 #### [7. Images](#images)
+#### [8. Tests](#tests)
+#### [9. Performance](#performance)
+#### [10. Front End architectures](#front-end)
 
 ## <a name="git"></a>1. Git
 - Pull requests / Merge requests
@@ -75,6 +78,10 @@ Some best practices or choices I found in my experience.
 ## <a name="javascript"></a>5. Javascript
 - [jsDoc](https://jsdoc.app/)
 - Use **eslint**
+- Prefer **Typescript** if you want a well-structured code
+- Use **ES6**
+- Be updated with new Javascript version and use them with **Babel**
+
 
 ## <a name="utility"></a>6. Utility
 - Use **regions** (here an [example](http://vswebessentials.com/features/javascript#regions) with Javascript, but can be used everywhere)
@@ -88,3 +95,21 @@ Some best practices or choices I found in my experience.
 - SVG > iconfonts > sprites > plain images
 - Load best image based on screen width ([responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images))
 - Optimize images (https://kinsta.com/blog/optimize-images-for-web/ or tool online)
+
+## <a name="tests"></a>8. Tests
+- Use [**Cypress**](https://www.cypress.io/) for e2e tests, very fast to write and can reduce problems in the future
+- I think Unit Tests are a bit useless in FE development since they don't reproduce the browser situation
+
+## <a name="performance"></a>9. Performance
+- Optimize resources (https://www.smashingmagazine.com/2019/04/optimization-performance-resource-hints/)
+- Use [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), it has also a lot of suggestions for every negative point the site has
+- Use [WebPageTest](https://www.webpagetest.org/)
+- Use **HTTP2** (or HTTP3 when it will be fully available)
+- Sometimes UX has a great impact on the "visual performance"
+- Use **lazy loading**
+
+## <a name="front-end"></a>10. Front End architectures
+- Biologic system:
+  - **atoms**: base components like inputs, titles, etc
+  - **molecules**: more atoms togheter, like a form
+  - **organism**: more molecules togheter, the page of the site
