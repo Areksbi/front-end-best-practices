@@ -71,7 +71,7 @@ Some best practices or choices I found in my experience.
   - Foundation
   - Semantic UI
 - Learn [pseudo-selectors](https://hackernoon.com/understanding-pseudo-class-selectors-mg443t89)
-- Use "semantic" class names (no ".is-red" or similar classes)
+- Use "semantic" class names (no ".is-red" or similar classes, create MIXINS with Sass instead)
 - Use **Prettier** formatter to have clean CSS/Sass
 
 
@@ -81,6 +81,15 @@ Some best practices or choices I found in my experience.
 - Prefer **Typescript** if you want a well-structured code
 - Use **ES6**
 - Be updated with new Javascript version and use them with **Babel**
+- Place the scripts at the end of the body
+- Avoid globals
+- Use [**declarative**](https://codeburst.io/imperative-vs-declarative-javascript-8b5e45a602dd) Javascript
+- Avoid heavy nestings
+- DOM access is the heaviest (and slowest) part in JS
+- Make it **understandable**
+- Use === instead of ==
+- ```eval``` is evil
+- Avoid setTimeout and setInterval even more
 
 
 ## <a name="utility"></a>6. Utility
@@ -90,6 +99,7 @@ Some best practices or choices I found in my experience.
 - Add **precommit** and/or **prepush** (suggested **husky** with **lint-staged**)
 - Add **.editorconfig** ([link](https://editorconfig.org/))
 - Add docs
+- Use **English** language in your code, please
 
 ## <a name="images"></a>7. Images
 - SVG > iconfonts > sprites > plain images
@@ -113,3 +123,4 @@ Some best practices or choices I found in my experience.
   - **atoms**: base components like inputs, titles, etc
   - **molecules**: more atoms togheter, like a form
   - **organism**: more molecules togheter, the page of the site
+- Create modules for every feature and load them with lazy loading only when needed
