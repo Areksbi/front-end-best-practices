@@ -1,1 +1,1 @@
-# front-end-best-practices
+# Front End - Best practices
