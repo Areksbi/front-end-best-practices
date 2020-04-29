@@ -5,9 +5,9 @@ Some best practices or choices I found in my experience.
 ## Index
 #### [1. Git](#git)
 #### [2. Choose technology for enterprise projects](#choose-technology-for-enterprise-projects)
-##### [2.1 Vanilla](#vanilla)
-##### [2.2 Angular](#angular)
-##### [2.3 React](#react)
+##### - [2.1 Vanilla](#vanilla)
+##### - [2.2 Angular](#angular)
+##### - [2.3 React](#react)
 
 ## <a name="git"></a>1. Git
 - Pull requests / Merge requests
