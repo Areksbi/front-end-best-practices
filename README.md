@@ -1,6 +1,6 @@
 # Front End - Best practices
-Some best practices or choices I found in my experience.
-*Always available for suggestions 😊*
+Some best practices or choices I found in my experience.<br>
+*Always available for advices 😊*
 
 ## Index
 #### [1. Git](#git)
