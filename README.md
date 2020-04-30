@@ -102,7 +102,7 @@ Some best practices or choices I found in my experience.
 - Use **English** language in your code, please
 
 ## <a name="images"></a>7. Images
-- SVG > iconfonts > sprites > plain images
+- SVG (better with HTTP2 and for devs) or iconfonts (if no HTTP2) > sprites > plain images
 - Load best image based on screen width ([responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images))
 - Optimize images (https://kinsta.com/blog/optimize-images-for-web/ or tool online)
 
