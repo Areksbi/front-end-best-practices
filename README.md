@@ -1,5 +1,5 @@
 # Front End - Best practices
-Some best practices or choices I found in my experience.<br>
+Some best practices I have found for Front End projects in Consulting..<br>
 *Always available for advices 😊*
 
 ## Index
@@ -18,16 +18,15 @@ Some best practices or choices I found in my experience.<br>
 #### [10. Front End architectures](#front-end)
 
 ## <a name="git"></a>1. Git
-- Pull requests / Merge requests
-- Commit messages
-  - https://github.com/RomuloOliveira/commit-messages-guide/blob/master/README.md
-- Branches like [gitflow](https://nvie.com/posts/a-successful-git-branching-model/)
+- Name **branches** like [gitflow](https://nvie.com/posts/a-successful-git-branching-model/):
   - ```master```: production only
   - ```develop```: where all **features** will be merged in, the ONLY branch mergable in ```master```
   - ```feature/#id-brief-description```: opened from ```develop``` and mergable in ```develop```, describe a feature task. Replace ```id``` with the id of the task, succeded by a brief description of the task
   - ```hotfix/#id-brief-description```: opened from ```master``` and mergable in ```master``` and ```develop```, describe a fix for **production**. Replace ```id``` with the id of the bug, succeded by a brief description of the fix
   - ```bugfix/#id-brief-description```: opened from ```develop``` or ```feature``` and mergable in the branch you opened from, describe a fix for a feature. Replace ```id``` with the id of the bug, succeded by a brief description of the fix
   - ```release/name-release```: opened from ```master``` and mergable in ```master``` when it's ready, daily updated with ```master```
+- [Pull requests / Merge requests](https://www.atlassian.com/git/tutorials/making-a-pull-request): use them to check the code before merges in your main branches
+- [Commit messages](https://github.com/RomuloOliveira/commit-messages-guide/blob/master/README.md): understanding the importance of commit messages and how to write them well
 
 ## <a name="choose-technology-for-enterprise-projects"></a>2. Choose technology for enterprise projects
 ### <a name="vanilla"></a>2.1 Vanilla
