@@ -77,20 +77,20 @@ Some best practices I have found for Front End projects in Consulting.<br>
 
 
 ## <a name="javascript"></a>5. Javascript
-- [jsDoc](https://jsdoc.app/)
-- Use **eslint**
-- Prefer **Typescript** if you want a well-structured code
-- Use **ES6**
+- [jsDoc](https://jsdoc.app/): keep your Javascript documented
+- Use **eslint**: check your code with specific rules (suggeste [AirBnb](https://www.npmjs.com/package/eslint-config-airbnb)'s linter)
+- Prefer **Typescript**: if you want a well-structured code
+- Use **ES6** and above: the last Javascript versions keep your code clean and more efficent
 - Be updated with new Javascript version and use them with **Babel**
-- Place the scripts at the end of the body
-- Avoid globals
-- Use [**declarative**](https://codeburst.io/imperative-vs-declarative-javascript-8b5e45a602dd) Javascript
-- Avoid heavy nestings
+- Place the scripts at the end of the body to improve performance
+- Avoid globals variables
+- Use [**declarative**](https://codeburst.io/imperative-vs-declarative-javascript-8b5e45a602dd) Javascript: it keeps your code  clean and reduces the possibility of introducing bugs
+- Avoid heavy nestings: keep it simple and you will easily find bugs (you will ALWAYS have bugs 🙂)
 - DOM access is the heaviest (and slowest) part in JS
-- Make it **understandable**
+- Make it **understandable**: call things by their name — easy, short and readable variable and function names, it helps  everyone to understand what a variable or function is used for
 - Use === instead of ==
 - ```eval``` is evil
-- Avoid setTimeout and setInterval even more
+- Avoid setTimeout and setInterval even more: they can introduce bugs difficult to find
 
 
 ## <a name="utility"></a>6. Utility
