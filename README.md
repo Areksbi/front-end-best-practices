@@ -79,7 +79,7 @@ Some best practices I have found for Front End projects in Consulting.<br>
 ## <a name="javascript"></a>5. Javascript
 - [jsDoc](https://jsdoc.app/): keep your Javascript documented
 - Use **eslint**: check your code with specific rules (suggest [AirBnb](https://www.npmjs.com/package/eslint-config-airbnb)'s linter)
-- Prefer **Typescript**: if you want a well-structured code
+- Prefer **Typescript**<a name="typescript"></a>: if you want a well-structured code
 - Use **ES6** and above: the last Javascript versions keep your code clean and more efficent
 - Be updated with new Javascript versions and use them with **Babel**
 - Place the scripts at the end of the body to improve performance
@@ -108,7 +108,7 @@ Some best practices I have found for Front End projects in Consulting.<br>
 - Use **English** language in your code, please
 
 ## <a name="images"></a>7. Images
-- Icons: prefer **SVG** if you have HTTP2 or iconfonts if without HTTP2. Avoid sprites or plain images.
+- Icons: prefer **SVG** if you have [HTTP2](#http2) or iconfonts if without HTTP2. Avoid sprites or plain images.
 - Load best image based on screen width ([responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images))
 - Optimize images (https://kinsta.com/blog/optimize-images-for-web/ or tool online)
 
@@ -117,16 +117,18 @@ Some best practices I have found for Front End projects in Consulting.<br>
 - I think **Unit Tests** are a bit useless in FE development since they don't reproduce the browser situation
 
 ## <a name="performance"></a>9. Performance
-- Optimize resources (https://www.smashingmagazine.com/2019/04/optimization-performance-resource-hints/)
+- Optimize resources and loadings (https://www.smashingmagazine.com/2019/04/optimization-performance-resource-hints/)
 - Use [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), it has also a lot of suggestions for every negative point the site has
-- Use [WebPageTest](https://www.webpagetest.org/)
-- Use **HTTP2** (or HTTP3 when it will be fully available)
-- Sometimes UX has a great impact on the "visual performance"
-- Use **lazy loading**
+- Use [WebPageTest](https://www.webpagetest.org/): test your pages speed with nice tools
+- Use <a name="http2"></a>**HTTP2** (or HTTP3 when it will be fully available): its the protocol used on your server to send resources to your client, with HTTP2 you can load your resources asynchronously
+- Sometimes **UX** has a great impact on the "visual performance"
+- Use **lazy loading**: you can load only-when-in-viewport images or features
 
 ## <a name="front-end"></a>10. Front End architectures
-- Biologic system:
+- My favorite is the biologic-system:
   - **atoms**: base components like inputs, titles, etc
   - **molecules**: more atoms togheter, like a form
   - **organism**: more molecules togheter, the page of the site
 - Create modules for every feature and load them with lazy loading only when needed
+- Use [**Typescript**](#typescript) with its structures (Interfaces and so on)
+- Use verified [**npm packages**](https://www.npmjs.com/) for some annoying feature to develop (ex: accordions, sliders, etc.)
