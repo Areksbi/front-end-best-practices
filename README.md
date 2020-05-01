@@ -50,15 +50,16 @@ Some best practices I have found for Front End projects in Consulting.<br>
   - accessibility (**a11y**)
   - SEO
 - **HTML5** links:
-  - Official: https://html.spec.whatwg.org/multipage/
-  - MDN: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5 
+  - [Official doc](https://html.spec.whatwg.org/multipage/)
+  - [MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+  - [The importance of semantic HTML](https://medium.com/adalab/the-importance-of-semantic-html-78e74fb75ff0)
 - Some **a11y** Chrome extensions:
   - [WAVE](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
   - [axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd)
   - [ChromeVox](https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn)
   - [HTML5 Outliner](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
   - [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)
-- Awesome **a11y** to UNDERSTAND how to write accessible HTML: https://www.w3.org/WAI/tutorials/
+- Awesome **a11y** tutorial to UNDERSTAND how to write accessible HTML: https://www.w3.org/WAI/tutorials/
 - Use **Prettier** formatter to have clean HTML
 
 ## <a name="css"></a>4. CSS
