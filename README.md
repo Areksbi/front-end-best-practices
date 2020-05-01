@@ -93,11 +93,16 @@ Some best practices I have found for Front End projects in Consulting.<br>
 
 
 ## <a name="utility"></a>6. Utility
-- Use **regions** (here an [example](http://vswebessentials.com/features/javascript#regions) with Javascript, but can be used everywhere)
+- Suggested **IDE** (Integrated development environment):
+  - **WebStorm** (pay): a great workplace, the best I used for FE development
+  - **Visual Studio Code** (free): the best I tried for free, with a lot of extensions
+  - **Atom** (free): valid VS Code alternative
+  - **Sublime** (free): valid VS Code alternative
+- Use **regions** to split your code and make it collapsable with the most of IDEs (here an [example](http://vswebessentials.com/features/javascript#regions) with Javascript, but can be used everywhere)
 - Use **TODO** or **FIXME** when you are going to commit files you have to rework ([example](https://help.semmle.com/wiki/pages/viewpage.action?pageId=29393692) in Java)
-- Add **change log**
-- Add **precommit** and/or **prepush** (suggested **husky** with **lint-staged**)
-- Add **.editorconfig** ([link](https://editorconfig.org/))
+- Add [**change log**](https://desmart.com/blog/how-to-generate-your-project-s-changelog-from-commit-messages): it allows you to document your releases, "Clients love it = you'll love it"
+- Add **precommit** and/or **prepush** to check or format your code (suggested **husky** with **lint-staged**)
+- Add **.editorconfig** ([link](https://editorconfig.org/)): keep the same formatting between different people's IDEs
 - Add docs
 - Use **English** language in your code, please
 
