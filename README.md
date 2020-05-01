@@ -78,10 +78,10 @@ Some best practices I have found for Front End projects in Consulting.<br>
 
 ## <a name="javascript"></a>5. Javascript
 - [jsDoc](https://jsdoc.app/): keep your Javascript documented
-- Use **eslint**: check your code with specific rules (suggeste [AirBnb](https://www.npmjs.com/package/eslint-config-airbnb)'s linter)
+- Use **eslint**: check your code with specific rules (suggest [AirBnb](https://www.npmjs.com/package/eslint-config-airbnb)'s linter)
 - Prefer **Typescript**: if you want a well-structured code
 - Use **ES6** and above: the last Javascript versions keep your code clean and more efficent
-- Be updated with new Javascript version and use them with **Babel**
+- Be updated with new Javascript versions and use them with **Babel**
 - Place the scripts at the end of the body to improve performance
 - Avoid globals variables
 - Use [**declarative**](https://codeburst.io/imperative-vs-declarative-javascript-8b5e45a602dd) Javascript: it keeps your code  clean and reduces the possibility of introducing bugs
@@ -108,13 +108,13 @@ Some best practices I have found for Front End projects in Consulting.<br>
 - Use **English** language in your code, please
 
 ## <a name="images"></a>7. Images
-- SVG (better with HTTP2 and for devs) or iconfonts (if no HTTP2) > sprites > plain images
+- Icons: prefer **SVG** if you have HTTP2 or iconfonts if without HTTP2. Avoid sprites or plain images.
 - Load best image based on screen width ([responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images))
 - Optimize images (https://kinsta.com/blog/optimize-images-for-web/ or tool online)
 
 ## <a name="tests"></a>8. Tests
-- Use [**Cypress**](https://www.cypress.io/) for e2e tests, very fast to write and can reduce problems in the future
-- I think Unit Tests are a bit useless in FE development since they don't reproduce the browser situation
+- Use [**Cypress**](https://www.cypress.io/) for e2e (end to end) tests, very fast to write and can reduce problems in the future; they run on Chrome
+- I think **Unit Tests** are a bit useless in FE development since they don't reproduce the browser situation
 
 ## <a name="performance"></a>9. Performance
 - Optimize resources (https://www.smashingmagazine.com/2019/04/optimization-performance-resource-hints/)
