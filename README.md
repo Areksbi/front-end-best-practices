@@ -1,5 +1,5 @@
 # Front End - Best practices
-Some best practices I have found for Front End projects in Consulting..<br>
+Some best practices I have found for Front End projects in Consulting.<br>
 *Always available for advices 😊*
 
 ## Index
@@ -30,18 +30,19 @@ Some best practices I have found for Front End projects in Consulting..<br>
 
 ## <a name="choose-technology-for-enterprise-projects"></a>2. Choose technology for enterprise projects
 ### <a name="vanilla"></a>2.1 Vanilla
-- My preferred choise but need senior Front End devs
+- My preferred choise but need Senior Front End devs
 - Create your own bundle: https://createapp.dev/
-- It's not easy to create a good Vanilla architectur
+- It's not easy to create a good Vanilla architecture
 ### <a name="angular"></a>2.2 Angular
-- With a lot of rollover on the team
+- Use if you have a lot of rollover on the team
 - Easiest for new entries
-- A lot of forms to handle
+- If you have a lot of forms to handle
 - Not the best to learn Javascript
 ### <a name="react"></a>2.3 React
-- With a lot of rollover on the team
-- Useful to learn Javascript better
+- Use if you have a lot of rollover on the team
+- Useful to learn Javascript
 - Tranding choice
+- Better for reactive rendering for complex design
 
 ## <a name="html"></a>3. HTML
 - Use **HTML5** for:
