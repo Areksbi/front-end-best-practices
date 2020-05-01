@@ -63,15 +63,15 @@ Some best practices I have found for Front End projects in Consulting.<br>
 - Use **Prettier** formatter to have clean HTML
 
 ## <a name="css"></a>4. CSS
-- Use preprocessor (suggested [Sass](https://sass-lang.com/))
-- Use [BEM](http://getbem.com/)
+- Use preprocessor (suggested [**Sass**](https://sass-lang.com/)): allows you make the development easiest
+- Use [BEM](http://getbem.com/): keep your classes with a good structure
 - Avoid Bootstrap, use only if want fast-projects
 - Evaluate Bootstrap alternatives:
   - Bulma
   - Materialize
   - Foundation
   - Semantic UI
-- Learn [pseudo-selectors](https://hackernoon.com/understanding-pseudo-class-selectors-mg443t89)
+- Learn [pseudo-selectors](https://hackernoon.com/understanding-pseudo-class-selectors-mg443t89): they are very useful to handle situations like "first element" or "each element to the odd position"
 - Use "semantic" class names (no ".is-red" or similar classes, create MIXINS with Sass instead)
 - Use **Prettier** formatter to have clean CSS/Sass
 
